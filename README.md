@@ -1,12 +1,7 @@
-# Template of Widget with confguration.
-[Qiita](https://qiita.com/Hackenbacker/items/5325a8bf9daa527b02fb)
+# Fictional Card Widget Sample.
 
 ## Overview
-English</br>
-Template of iOS14 Widget with [Edit Widget] menu. </br>
-</br>
-日本語</br>
-「ウィジェットを編集」メニューが表示されるWidget(iOS14)のテンプレートです。</br>
-</br>
-Xcode 10.1GM</br>
+You can select a card from the card list with "Edit Widget" menu.</br>
+However the selected card image is not displayed.</br>
+Xcode 12.1</br>
 iOS 14.0 - 14.1

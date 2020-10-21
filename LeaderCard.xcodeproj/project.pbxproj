@@ -22,6 +22,8 @@
 		C523B5A7253D21B9006B1C61 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523B5A6253D21B9006B1C61 /* IntentHandler.swift */; };
 		C523B5AB253D21B9006B1C61 /* LeaderCardIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C523B5A4253D21B9006B1C61 /* LeaderCardIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C523B5B5253D2208006B1C61 /* LeaderCardWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C523B58F253D2150006B1C61 /* LeaderCardWidget.intentdefinition */; };
+		C5D7612D254037B20084CBFA /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D76125254037A90084CBFA /* CardData.swift */; };
+		C5D76131254037B30084CBFA /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D76125254037A90084CBFA /* CardData.swift */; };
 		C5FA81E0253D28E100050730 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C5FA81DF253D28E100050730 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +78,7 @@
 		C523B5A4253D21B9006B1C61 /* LeaderCardIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LeaderCardIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C523B5A6253D21B9006B1C61 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		C523B5A8253D21B9006B1C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D76125254037A90084CBFA /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 		C5FA81DF253D28E100050730 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +112,7 @@
 		C523B561253D09B5006B1C61 = {
 			isa = PBXGroup;
 			children = (
+				C5D761242540378C0084CBFA /* Data */,
 				C5FA81DF253D28E100050730 /* README.md */,
 				C523B56C253D09B5006B1C61 /* LeaderCard */,
 				C523B58C253D2150006B1C61 /* LeaderCardWidget */,
@@ -169,6 +173,14 @@
 				C523B5A8253D21B9006B1C61 /* Info.plist */,
 			);
 			path = LeaderCardIntent;
+			sourceTree = "<group>";
+		};
+		C5D761242540378C0084CBFA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C5D76125254037A90084CBFA /* CardData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D7612D254037B20084CBFA /* CardData.swift in Sources */,
 				C523B58E253D2150006B1C61 /* LeaderCardWidget.swift in Sources */,
 				C523B593253D2151006B1C61 /* LeaderCardWidget.intentdefinition in Sources */,
 			);
@@ -321,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D76131254037B30084CBFA /* CardData.swift in Sources */,
 				C523B5A7253D21B9006B1C61 /* IntentHandler.swift in Sources */,
 				C523B5B5253D2208006B1C61 /* LeaderCardWidget.intentdefinition in Sources */,
 			);

@@ -35,7 +35,7 @@
 					<key>INIntentParameterConfigurable</key>
 					<true/>
 					<key>INIntentParameterDisplayName</key>
-					<string>表示カード</string>
+					<string>Using Card</string>
 					<key>INIntentParameterDisplayNameID</key>
 					<string>qImpCI</string>
 					<key>INIntentParameterDisplayPriority</key>
@@ -52,7 +52,7 @@
 							<key>INIntentParameterPromptDialogCustom</key>
 							<true/>
 							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>表示するカードを選択してください。</string>
+							<string>Select a card you want to use.</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
 							<string>bbkj6f</string>
 							<key>INIntentParameterPromptDialogType</key>
@@ -63,26 +63,6 @@
 							<true/>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Primary</string>
-						</dict>
-						<dict>
-							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
-							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>There are ${count} options matching ‘${card}’.</string>
-							<key>INIntentParameterPromptDialogFormatStringID</key>
-							<string>nNfC02</string>
-							<key>INIntentParameterPromptDialogType</key>
-							<string>DisambiguationIntroduction</string>
-						</dict>
-						<dict>
-							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
-							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>Just to confirm, you wanted ‘${card}’?</string>
-							<key>INIntentParameterPromptDialogFormatStringID</key>
-							<string>qwwElZ</string>
-							<key>INIntentParameterPromptDialogType</key>
-							<string>Confirmation</string>
 						</dict>
 					</array>
 					<key>INIntentParameterSupportsDynamicEnumeration</key>
